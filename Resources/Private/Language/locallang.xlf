@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2012-10-17T17:55:17Z"
+	      product-name="local lang">
+		<header/>
+		<body>
+
+			<!-- Flux configuration -->
+			<trans-unit id="flux.fluxFrontendForm">
+				<source>Flux Frontend Form</source>
+			</trans-unit>
+			<trans-unit id="flux.fluxFrontendForm.description">
+				<source>Experimentation of the Flux Frontend Form View Helper</source>
+			</trans-unit>
+			<trans-unit id="flux.fluxFrontendForm.fields.dataType">
+				<source>Data type</source>
+			</trans-unit>
+
+			<trans-unit id="flux.fluxFrontendWidget">
+				<source>Flux Frontend Widget (nothing implemented)</source>
+			</trans-unit>
+			<trans-unit id="flux.fluxFrontendWidget.description">
+				<source>Experimentation of the Flux Frontend Widget</source>
+			</trans-unit>
+			<trans-unit id="flux.fluxFrontendWidget.fields.dataType">
+				<source>Data type</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

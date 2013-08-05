@@ -1,0 +1,11 @@
+###############################################################
+# Integration with Fluid Content extension
+###############################################################
+
+plugin.tx_fluidcontent {
+	collections.flux_frontend {
+		templateRootPath = EXT:flux_frontend/Resources/Private/Templates/
+		partialRootPath = EXT:flux/Resources/Private/Partials/
+		layoutRootPath = EXT:fluidcontent/Resources/Private/Layouts/
+	}
+}

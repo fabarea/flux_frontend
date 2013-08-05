@@ -1,0 +1,38 @@
+{namespace flux=Tx_Flux_ViewHelpers}
+{namespace v=Tx_Vhs_ViewHelpers}
+<f:layout name="Content" />
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:flux="http://fedext.net/ns/flux/ViewHelpers"
+     xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+     xmlns:f="http://typo3.org/ns/fluid/ViewHelpers"
+     xmlns:fluxFrontend="http://typo3.org/ns/TYPO3/CMS/FluxFrontend/ViewHelpers"
+     xmlns:m="http://typo3.org/ns/TYPO3/CMS/Media/ViewHelpers">
+
+<f:section name="Configuration">
+	<flux:flexform wizardTab="Flux Frontend" id="fluxFrontendForm"
+	               icon="{v:extension.path.resources(path: 'Icons/icon-twitter.png')}">
+		<flux:flexform.field.input name="dataType" eval="trim" default="fe_users"/>
+		<flux:flexform.grid>
+			<flux:flexform.grid.row>
+				<flux:flexform.grid.column>
+				</flux:flexform.grid.column>
+			</flux:flexform.grid.row>
+		</flux:flexform.grid>
+	</flux:flexform>
+</f:section>
+
+<f:section name="Preview">
+	<flux:widget.grid/>
+	<table>
+		<tr>
+			<td>Data type:</td>
+			<td>{dataType}</td>
+		</tr>
+	</table>
+</f:section>
+
+<f:section name="Main">
+	<fluxFrontend:form />
+</f:section>
+
+</div>
